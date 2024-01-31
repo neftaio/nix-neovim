@@ -19,6 +19,6 @@ So I built [Main](./config/main.nix) and [Work](./config/work.nix).
 
 I can easily use the in any machine that have nix package manager installed using flakes
 
-`nix run github:/adalessa/nix-neovim` with this will use by default `main`.
+`nix run github:/neftaio/nix-neovim` with this will use by default `main`.
 
 in order to use flakes you may need to use `--experimental-features 'nix-command flakes'` flag.

@@ -69,5 +69,17 @@ in {
       options.desc = "Goes to prev result on the search and put the cursor in the middle";
       action = "Nzzzv";
     }
+    {
+      mode = "n";
+      key = "<leader>w";
+      options.desc = "Write the file";
+      action = ":w<cr>";
+    }
+    {
+      mode = "n";
+      key = "<leader>q";
+      options.desc = "Quit of editor";
+      action = ":q<cr>";
+    }
   ];
 }

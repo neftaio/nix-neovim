@@ -13,6 +13,6 @@ Este enfoque también me permite tener diferentes *conjuntos de construcción* s
 
 Puedo usarlos fácilmente en cualquier máquina que tenga instalado el gestor de paquetes Nix utilizando flakes:
 
-`nix run github:/adalessa/nix-neovim` y con esto se utilizará `main` de forma predeterminada.
+`nix run github:/neftaio/nix-neovim` y con esto se utilizará `main` de forma predeterminada.
 
 Para usar flakes, es posible que necesites utilizar la bandera `--experimental-features 'nix-command flakes'`.
