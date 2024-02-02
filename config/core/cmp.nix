@@ -30,12 +30,12 @@
       enable = true;
       snippet.expand = "luasnip";
       mapping = {
-        "<c-y>" = "cmp.mapping.confirm({ select = true, behavior = cmp.ConfirmBehavior.Insert })";
+        "<CR>" = "cmp.mapping.confirm({ select = true, behavior = cmp.ConfirmBehavior.Insert })";
         "<c-d>" = "cmp.mapping.scroll_docs(-4)";
         "<c-f>" = "cmp.mapping.scroll_docs(4)";
         "<c-space>" = "cmp.mapping.complete()";
         "<c-e>" = "cmp.mapping.abort()";
-        "<c-n>" = "cmp.mapping.select_next_item()";
+        #"<c-n>" = "cmp.mapping.select_next_item()";
         "<c-p>" = "cmp.mapping.select_prev_item()";
       };
       sources = [
