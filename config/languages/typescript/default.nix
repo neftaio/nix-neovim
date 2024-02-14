@@ -4,7 +4,7 @@
   autoCmd = [
     {
       event = ["FileType"];
-      pattern = ["typescrip" "typescripreact" "javascript"];
+      pattern = ["typescript" "typescriptreact" "javascript"];
       callback = {
         __raw = ''
           function()
