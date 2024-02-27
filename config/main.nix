@@ -24,6 +24,7 @@
     ./modules/tests
     ./modules/ui
     ./modules/terminal
+    ./modules/ai
 
     ./tools/oil.nix
     ./tools/harpoon.nix
