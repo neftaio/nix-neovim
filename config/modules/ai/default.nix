@@ -1,1 +1,1 @@
-{imports = [./copilot-lua.nix ./copilot-cmp.nix];}
+{imports = [./copilot-cmp.nix];}
