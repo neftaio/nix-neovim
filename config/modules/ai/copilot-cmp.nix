@@ -1,5 +1,5 @@
 {
   plugins.copilot-cmp = {
-    enable = false;
+    enable = true;
   };
 }
