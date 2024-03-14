@@ -1,5 +1,5 @@
 {
-  plugins.rest = {
+  plugins.rest-nvim = {
     enable = true;
   };
 
